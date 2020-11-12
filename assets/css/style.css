@@ -89,13 +89,13 @@
 
 #text{
     position: relative;
-    top: 10px;
+    bottom: 40px;
     padding: 0 20px;
 }
 .newsletter__form .btn{
     position: relative;
-    right: 90px;
-    top: 5px;
+    left: 380px;
+    bottom: 45px;
     padding: 12px 40px;
     border-style: none;
     background-color:#EF9F9E;
@@ -107,7 +107,7 @@
 #form.invalid .validate:before{
     content: '';
     position: absolute;
-    left: 220px;
+    left: 350px;
     top: 14px;
     width: 24px;
     height: 24px;
