@@ -80,6 +80,7 @@
     border:1px solid black;
     padding: 15px;
     border-radius: 20px;
+    outline: none;
 }
 
 #text{
