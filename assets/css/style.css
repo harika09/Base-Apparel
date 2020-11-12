@@ -94,8 +94,8 @@
 }
 .newsletter__form .btn{
     position: relative;
-    left: 380px;
-    bottom: 45px;
+    left: 400px;
+    bottom: 46px;
     padding: 12px 40px;
     border-style: none;
     background-color:#EF9F9E;
@@ -107,8 +107,8 @@
 #form.invalid .validate:before{
     content: '';
     position: absolute;
-    left: 350px;
-    top: 14px;
+    left: 370px;
+    top: 12px;
     width: 24px;
     height: 24px;
     background: url(/assets/img/icon-error.svg);
@@ -200,15 +200,37 @@
     }
     
 
-    #form{
-        padding-left: 50px;
-        position: relative;
+    .newsletter__form{
+        margin-left: 70px;
+    }
+    #form #email{
+        width: 250px;
+    }
+
+    #form.invalid .validate:before{
+        content: '';
+        position: absolute;
+        left: 270px;
+        top: 14px;
+        width: 24px;
+        height: 24px;
+        background: url(/assets/img/icon-error.svg);
+        background-size: cover;
+        z-index: 1000;
     }
 
     #text{
         position: relative;
-        right: 70px;
+        right: 60px;
+        top: 20px;
         padding: 0 20px;
+    }
+
+    .newsletter__form .btn{
+        position: relative;
+        left: -50px;
+        bottom: -5px;
+    
     }
     
     .challenge{
@@ -217,3 +239,5 @@
     
     
 }
+
+
