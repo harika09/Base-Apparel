@@ -57,6 +57,7 @@
     font-size: 4.5rem;
     text-transform: uppercase;
     padding-top: 80px;
+    
 }
 
 .greetings h3 span{
@@ -65,11 +66,12 @@
 }
 
 .greetings p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     font-weight: 300;
     color: var(--Desaturated-Red);
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    width: 500px;
 }
 
 #form .validate{
@@ -77,7 +79,7 @@
 }
 
 #form #email{
-    width: 300px;
+    width: 450px;
     background-color: #FFF7F8;
     border:1px solid black;
     padding: 15px;

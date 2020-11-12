@@ -8,6 +8,8 @@ function validate(){
 
         form.classList.add("valid");
         form.classList.remove("invalid");
+        text.innerHTML = "Valid Email";
+        text.style.color = "red";
        
         
     }
