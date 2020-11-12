@@ -51,6 +51,7 @@
 
 
 .greetings h3{
+    letter-spacing: 2;
     font-size: 4.5rem;
     text-transform: uppercase;
     padding-top: 80px;
