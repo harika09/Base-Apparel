@@ -1,3 +1,3 @@
 # Base-Apparel
 Base Apparel coming soon page design by Frontend Mentor
-Link:
+Link:https://base-apparel-comings.netlify.app/
