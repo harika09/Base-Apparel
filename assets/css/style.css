@@ -89,7 +89,7 @@
 
 #text{
     position: relative;
-    bottom: 40px;
+    top: 10px;
     padding: 0 20px;
 }
 .newsletter__form .btn{
