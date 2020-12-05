@@ -14,12 +14,15 @@
 }
 
 
+/* Layout */
+.bd-container{
+    max-width: 1401px;
+}
 
 .main__content{
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;   
 }
 
 .apparel__container{
@@ -27,7 +30,6 @@
     grid-template-columns: 1fr 1fr;
     background: url(/assets/img/bg-pattern-desktop.svg) no-repeat;
     background-size: 100% 100%;
-    width: 1500px;
 }
 
 .apparel__container .img__right{
@@ -250,4 +252,9 @@
     
 }
 
-
+@media screen and (min-width: 1302px){
+    .bd-container{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
